@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/CyborgSemon/NewsAppThingV3/issues"
   },
-  "homepage": "https://github.com/CyborgSemon/NewsAppThingV3#readme"
+  "homepage": "https://github.com/CyborgSemon/NewsAppThingV3#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jqeury": "0.0.1-security",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-watch": "^1.1.0"
+  }
 }
