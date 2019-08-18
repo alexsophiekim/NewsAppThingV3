@@ -2,13 +2,13 @@ module.exports = function(grunt) {
     grunt.initConfig({
       csslint: {
         strict: {
-          src: ['*.css']
+          src: ['css/*.css']
         },
         lax: {
           options: {
             import: false
           },
-          src: ['*.css']
+          src: ['css/*.css']
         }
       },
 
@@ -16,4 +16,10 @@ module.exports = function(grunt) {
 
 
     });
+    grunt.loadNpmTasks('grunt-contrib-csslint');
+
+
+
+    grunt.registerTask('css', ['csslint']);
+
 };
